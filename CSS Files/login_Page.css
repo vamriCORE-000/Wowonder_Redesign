@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@100;200;300;400;500;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* 
+font-family: 'Abel', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;
+ */
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+.row{
+    padding-top: 100px;
+}
+.ml-body {
+    padding: 85px;
+    background-color: rgb(33, 33, 33);
+    border-radius: 20px;
+}
+.upper-container {
+    padding-top: 20px;
+}
+.container-features {
+    padding-top: 0;
+}
+.alig {
+    vertical-align: top;
+}
+.logo-line {
+    display: inline;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+#example2 {
+    color: black;
+    font-size: 30px;
+    -webkit-text-stroke: 1px #FFFFFF;
+}
+.additionals {
+    color: #FFFFFF;
+    font-size: 14px;
+    width: 250px;
+}
+.account-option {
+    font-size: 14px;
+}
+.point {
+    cursor: pointer;
+}
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 2px solid #FDA500;
+    border-right: 0;
+    border-radius: 0;
+    color: #FFFFFF;
+    outline: none;
+}
+.input-box input:focus {
+    background-color:transparent;
+    border-bottom: 2px solid #FDA500;
+	border-color: inherit;
+  	-webkit-box-shadow: none;
+  	box-shadow: none;
+    color: #FDA500;
+    
+}
+.input-box input::placeholder {
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 14px;
+    font-family: 'Inter', sans-serif;
+}
+.form-control {
+    width: 50%;
+}
+.rounded-corner {
+    border-radius: 10px;
+    background-color: #FDA500;
+    font-weight: bold;
+    width: 100%;
+}
+.color {
+    color: #FFFFFF;
+}
+@media (max-width: 428px) {
+    .container{
+        position: relative;
+    }
+    .display-settings{
+        position: absolute;
+        bottom: 10px;
+        transform: translate(62% , 30%);
+        font-size: 12px;
+    }
+    .ml-body{
+        background-color: #000000;
+        padding: 50px;
+    }
+    .additionals{
+        display: none;
+    }
+    .container-features{
+        text-align: center;
+    }
+    .row{
+        padding-top: 10px;
+    }
+}

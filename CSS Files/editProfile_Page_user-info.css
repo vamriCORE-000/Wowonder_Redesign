@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@100;200;300;400;500;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* 
+font-family: 'Abel', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;
+ */
+
+body {
+    background-color: #000000;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+.vi{
+    display: none;
+}
+
+.theme-color {
+    background-color: #FDA500;
+}
+
+.alig {
+    vertical-align: top;
+}
+
+.logo-title {
+    display: inline;
+    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
+    -webkit-text-stroke: 1px #FFFFFF;
+}
+
+.buttons-decor {
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    background-color: #242E2E;
+    font-family: 'Inter', sans-serif;
+    border-radius: 30px;
+    color: #FFFFFF;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.font {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.position-addons {
+    left: 7px;
+    top: 12px;
+}
+
+.hvm-container,
+.info-container,
+.logo-container {
+    display: flex;
+}
+
+.cover-container {
+    position: static;
+}
+
+.position-additionals {
+    left: 10px;
+    top: -15px;
+}
+
+.ptn {
+    left: -35px;
+    z-index: -1;
+    top: -12px;
+}
+
+.ft {
+    font-size: 12px;
+    padding: 15px 40px;
+}
+
+.pn-ae {
+    top: -7px;
+    left: 30px;
+}
+
+.ft-sz {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.basic-container {
+    background-color: #242E2E;
+    font-family: 'Inter', sans-serif;
+    border-radius: 30px;
+    padding: 15px 40px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.display {
+    display: contents;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 2px solid #FDA500;
+    border-right: 0;
+    border-radius: 0;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.input-box input:focus {
+    background-color: transparent;
+    border-bottom: 2px solid #FDA500;
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #FDA500;
+
+}
+
+.input-box input::placeholder {
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 14px;
+    font-family: 'Inter', sans-serif;
+}
+
+.account-option {
+    font-size: 14px;
+}
+.fl-container{
+    display: flex;
+}
+.fl-container input {
+    width: 50%;
+}
+
+.button-additionals {
+    padding: 15px 80px;
+    color: #FFFFFF;
+    font-size: 12px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    transition: background-color 0.15s;
+}
+
+.button-additionals:hover {
+    background-color: #000000;
+}
+
+.point {
+    cursor: pointer;
+}
+
+@media (max-width: 1025px) {
+    .container {
+        overflow: hidden;
+        overflow-y: none;
+        overflow-x: none;
+        overflow-wrap: none;
+    }
+    .buttons-decor {
+        padding: 10px 20px;
+    }
+
+    .ptn {
+        left: -15px;
+        z-index: -1;
+        top: -10px;
+    }
+    .pn-ae {
+        top: -10px;
+        left: 15px;
+    }
+}
+
+@media (max-width: 775px) {
+
+    .hvm-container,
+    .info-container,
+    .user-container,
+    .mk-th-ib .mk-it-ib,
+    .left-container,
+    .display,
+    .d-n {
+        display: none;
+    }
+
+    .logo-container{
+        display: block;
+    }
+    .vi {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .cover-container {
+        position: relative;
+    }
+
+    .right-container {
+        position: absolute;
+        transform: translateX(15%);
+    }
+}
+@media (max-width: 428px) {
+    .right-container {
+        position: absolute;
+        transform: translateX(45%);
+        font-size: 35px;
+    }
+    .right-container form{
+        width: 500px;
+    }
+    .fl-container{
+        display: block;
+        width: 500px;
+    }
+    .first-name-input{
+        margin-bottom: 30px;
+    }
+    .input-box input{
+        width: 500px;
+        height: 50px;
+    }
+    .input-box input::placeholder{
+        font-size: 20px;
+    }
+    .button-additionals{
+        width: 500px;
+    }
+    .fl-container input {
+        width: 100%;
+    }
+}
+@media (max-width: 375px) {
+    .right-container {
+        position: absolute;
+        transform: translateX(50%);
+        font-size: 35px;
+    }
+} 
+@media (max-width: 320px) {
+    .right-container {
+        position: absolute;
+        transform: translateX(60%);
+        font-size: 35px;
+    }
+}
